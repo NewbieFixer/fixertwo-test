@@ -1,9 +1,9 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: [bug, triage]
+name: Issue submission fort
+description: Submit a new rule and fix 
+title: "[Rule&Fix]: "
+labels: [rule, fix]
 assignees:
-  - octocat
+  - fixerTwo
 body:
   - type: markdown
     attributes:
