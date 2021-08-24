@@ -8,24 +8,31 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Tahnk you for submitting a new security finding rules & fix to CrowdQ!
   - type: input
     id: contact
     attributes:
-      label: Contact Details
+      label: Who are you?
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
-      required: false
+      required: true
   - type: textarea
-    id: what-happened
+    id: vuln-details
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: What vulnerability are you trying to find?
+      description: Give us some details about the finding you would like to find and fix.
+      placeholder: Give us a short description of the finding you are after!
+      value: "Describe the vulnerability to the best of your ability!"
     validations:
       required: true
+  - type: textarea
+    id: find-rule
+    attributes:
+      label: How we can find the vulnerable code?
+      description: Tell us how we can find this vulnerability and attach a vulnerable code sample.
+      placeholder: Rules description and sample bad code. 
+      value: "Eg. When using document.write it is dangerous to use a direct user input. " 
   - type: dropdown
     id: version
     attributes:
