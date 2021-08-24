@@ -1,4 +1,4 @@
-name: Issue submission fort
+name: Issue submission form
 description: Submit a new rule and fix 
 title: "[Rule&Fix]: "
 labels: [rule, fix]
