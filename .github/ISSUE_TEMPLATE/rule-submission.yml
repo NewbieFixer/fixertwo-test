@@ -1,6 +1,6 @@
 name: Issue submission form
 description: Submit a new rule and fix 
-title: "[Rule&Fix]: "
+title: "[Rule&Fix]: <Vulnerability Name> - <Severity> - CWE <number>"
 labels: [rule, fix]
 assignees:
   - fixerTwo
@@ -55,16 +55,16 @@ body:
         - Mobile
         - Desktop
   - type: textarea
-    id: logs
-    attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+    id: more-info
+    attributes: 
+      label: Additional information 
+      description: Give us more details about this type of vulnerability that you think could be useful
+      placeholder: Alternative CWE values, eternal resources that talk about the issue, link to code with vulnerabilities
   - type: checkboxes
     id: terms
     attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      label: Terms & Conditions
+      description: By submitting this form, you agree to follow our [T&Cs](https://www.crowdq.dev/challenge)
       options:
-        - label: I agree to follow this project's Code of Conduct
+        - label: I agree to follow this project's Terms & Conditions
           required: true
