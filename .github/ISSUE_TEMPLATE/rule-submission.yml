@@ -41,7 +41,7 @@ body:
       label: How we can fix this vulnerability?
       description: Tell us how this vulnerability can be fixed and attach a code sample that was fixed.
       placeholder: Fix description and sample fixed code. 
-      value: "Eg. When using document.write it is dangerous to use a direct user input." 
+      value: "Eg. When using document.write it is dangerous to use a direct user input." |
               fasdfas" 
     validations: 
       required: false
