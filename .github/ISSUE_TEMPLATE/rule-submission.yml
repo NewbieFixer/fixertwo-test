@@ -44,26 +44,16 @@ body:
       value: "Explain how the vulnerability can be fixed and give us a sample that shows how the vulnerable code form above can be fixed."
     validations: 
       required: false
-- type: dropdown
-    id: version
-    attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
   - type: dropdown
-    id: browsers
+    id: app-type
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What ype of apps are affected by this vulnerability?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Web
+        - APIs
+        - Mobile
+        - Desktop
   - type: textarea
     id: logs
     attributes:
