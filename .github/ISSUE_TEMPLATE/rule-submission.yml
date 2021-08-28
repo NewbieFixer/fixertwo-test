@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Tahnk you for submitting a new security finding rules & fix to CrowdQ!
+        Thank you for submitting a new security finding rules & fix to CrowdQ!
   - type: input
     id: contact
     attributes:
@@ -57,9 +57,9 @@ body:
   - type: textarea
     id: more-info
     attributes: 
-      label: Additional information 
+      label: Further Reading
       description: Give us more details about this type of vulnerability that you think could be useful
-      placeholder: Alternative CWE values, eternal resources that talk about the issue, link to code with vulnerabilities
+      placeholder: Alternative CWE values, external resources that talk about the issue, link to code with vulnerabilities
   - type: checkboxes
     id: terms
     attributes:
